@@ -36,7 +36,7 @@ ratings.head()
 
 So we can then have a look at `head` which remember is the first few rows and there is our ratings; user, movie, rating.
 
-Let's make it more fun. Let's see what the movies actually are.
+Let's make it more fun. Let's see what the movies actually are..
 
 ```python
 movies = pd.read_csv(path/'u.item',  delimiter='|', encoding='latin-1', header=None,
